@@ -98,17 +98,6 @@ It contains two sheets:
 `Data quality`: Manual classification of the ranges, i.e. whether they had valid FIXED commits.
 `Vetting`: The manual vetting of each vulnerability, following the process described in the paper.
 
-# Dependency analysis tooling 
-
-The usage of the tools is based on a Postgres database, that must be created from the output of the initial analysis.
-
-Launch the docker Postgres database:
-```sh
-cd java/fr.inria.diverse.swh_osv/src/main/java/fr/inria/diverse/database
-docker compose up
-```
-
-Then, run the JavaScript `/PostgresCreate.java`
 
 
 ## Data Folder - Overview
