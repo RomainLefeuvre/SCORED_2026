@@ -13,15 +13,28 @@
 With Global History Analysis</h3>
 
   <p align="center">
-    Companion repository of SCORED Submission
+    Companion repository / reproduction package for the paper accepted at <a href="https://doi.org/10.1145/3848003.3848009">SCORED '26</a>
       </p>
 </div>
 
+**Authors:** Romain Lefeuvre<sup>1</sup>, Charly Reux<sup>1</sup>, Stefano Zacchiroli<sup>2</sup>, Olivier Barais<sup>1</sup>, Benoit Combemale<sup>3</sup>
 
+<sup>1</sup> University of Rennes, Rennes, France
+<sup>2</sup> LTCI, Télécom Paris, Institut Polytechnique de Paris, Palaiseau, France
+<sup>3</sup> Inria, Rennes, France
+
+> Romain Lefeuvre, Charly Reux, Stefano Zacchiroli, Olivier Barais, and Benoit Combemale. 2026. Did You Forkget It? Detecting One-Day Vulnerabilities in Open-Source Forks with Global History Analysis. In *Conference on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED '26), October 06, 2026, Prague, Czech Republic*. ACM, New York, NY, USA, 11 pages. https://doi.org/10.1145/3848003.3848009
+
+## Abstract
+
+Tracking vulnerabilities inherited from third-party open-source software is a well-known challenge, often addressed by tracing the threads of dependency information. At scale, existing approaches precompute the vulnerable versions of software associated with known CVEs, based on declared impacted versions or using local history analysis. However, vulnerabilities can also propagate through *forking*: a repository forked after a vulnerability is introduced but before it is patched may remain vulnerable long after the original repository has been fixed. Existing *history analysis* approaches analyze only the repository referenced by the CVE, providing a local view of the ecosystem that excludes forks sharing part of its development history. Vulnerabilities disclosed and patched elsewhere in a fork ecosystem may therefore persist as one-day (known but unpatched) vulnerabilities without fork maintainers' awareness. This paper proposes a *global history analysis* approach that conforms to the evaluation semantics defined by the OpenSSF Open Source Vulnerability (OSV) format, while extending them from repository-local histories to the global commit graph of the open-source ecosystem. Leveraging the graph of public code captured by Software Heritage, our approach propagates vulnerability introduction and fix information across shared commit histories and performs automated impact analysis. Starting from 7162 repositories containing vulnerable commits listed in the OSV.dev vulnerability database, we propagate vulnerability information to 2.2 million forks. We evaluate our approach on a sample of 195 ⟨fork, vulnerability⟩ pairs from popular repositories, manually auditing their code and contacting their maintainers for confirmation and responsible disclosure. This process identified 135 high-severity one-day vulnerabilities, achieving a precision of 0.69, with 9 cases confirmed by maintainers.
+
+**Keywords:** one-day vulnerabilities, software supply chain security
+
+
+---
 
 The reproduction package is composed of multiple tasks that are orchestrated using luigi scheduler [Luigi Scheduler](https://luigi.readthedocs.io/en/stable/central_scheduler.html). For each research question we will detail the associated tasks.
-
-Note: Due to space constraints and the anonymous GitHub submission, this artifact does not include all intermediate data. The final version will include the complete data. Additionally, the anonymization process may introduce compilation errors.
 
 
 ##  TRACKING VULNERABLE COMMITS ACROSS FORKS
