@@ -1,0 +1,7 @@
+Starting compression step STATS at 2024-02-13 17:26:13.812814
+Running: java it.unimi.dsi.big.webgraph.Stats checkout-early/compressed/example
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout-early/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout-early/compressed/tmp
+2024-02-13 17:26:14,040 125 INFO [main] ROOT - Scanning...
+2024-02-13 17:26:14,043 128 INFO [main] ROOT - Completed.
+2024-02-13 17:26:14,045 130 INFO [main] ROOT - Elapsed: 3ms [10 nodes, 5,000.00 nodes/s, 200.00 µs/node]
+Compression step STATS finished at 2024-02-13 17:26:14.062978 (in 0:00:00.250164)

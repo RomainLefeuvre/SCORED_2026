@@ -1,0 +1,6 @@
+graph path: /dev/shm/swh-graph/graph/graph
+topo sorted node list : fr.inria.diverse.swh_osv/out/topo.csv
+rocks database path : fr.inria.diverse.swh_osv/out/CtoOdb/rocksdb
+vulnerable provenance path : fr.inria.diverse.swh_osv/out/vulnerableProvenanceConcurrent/
+osv_label_result : /data/SWH/OSV/result.bin
+rang to origin : fr.inria.diverse.swh_osv/out/rangeToOrigin.bin

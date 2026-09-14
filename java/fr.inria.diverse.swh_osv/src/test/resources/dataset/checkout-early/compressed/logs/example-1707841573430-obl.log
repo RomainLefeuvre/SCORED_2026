@@ -1,0 +1,4 @@
+Starting compression step OBL at 2024-02-13 17:26:13.430156
+Running: java it.unimi.dsi.big.webgraph.BVGraph --list checkout-early/compressed/example
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout-early/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout-early/compressed/tmp
+Compression step OBL finished at 2024-02-13 17:26:13.677185 (in 0:00:00.247029)

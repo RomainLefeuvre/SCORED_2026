@@ -1,0 +1,26 @@
+Starting compression step MPH_LABELS at 2024-02-13 16:21:43.989464
+Running: java it.unimi.dsi.sux4j.mph.LcpMonotoneMinimalPerfectHashFunction --byte-array --temp-dir linear/compressed/tmp --decompressor com.github.luben.zstd.ZstdInputStream linear/compressed/example.labels.mph linear/compressed/example.labels.csv.zst
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=linear/compressed/tmp/logback.xml -Djava.io.tmpdir=linear/compressed/tmp
+2024-02-13 16:21:44,401 273 INFO [main] i.u.d.s.m.LcpMonotoneMinimalPerfectHashFunction - Scanning collection...
+2024-02-13 16:21:44,404 276 INFO [main] i.u.d.s.m.LcpMonotoneMinimalPerfectHashFunction - Completed.
+2024-02-13 16:21:44,404 276 INFO [main] i.u.d.s.m.LcpMonotoneMinimalPerfectHashFunction - Elapsed: 3ms [2 items, 1,000.00 items/s, 1.00 ms/item]; used/avail/free/total/max mem: 46.12M/30.00G/524.31M/570.43M/30.05G
+2024-02-13 16:21:44,404 276 INFO [main] i.u.d.s.m.LcpMonotoneMinimalPerfectHashFunction - Generating the map from keys to LCP lengths and offsets...
+2024-02-13 16:21:44,407 279 INFO [main] i.u.d.s.m.GOV3Function - Analysing buckets...
+2024-02-13 16:21:44,434 306 INFO [main] i.u.d.s.m.GOV3Function - Unsolvable systems: 1/2 (50.00%)
+2024-02-13 16:21:44,434 306 INFO [main] i.u.d.s.m.GOV3Function - Completed.
+2024-02-13 16:21:44,435 307 INFO [main] i.u.d.s.m.GOV3Function - Elapsed: 28ms [1 buckets, 37.04 buckets/s, 27.00 ms/bucket]; used/avail/free/total/max mem: 49.87M/30.00G/520.55M/570.43M/30.05G
+2024-02-13 16:21:44,436 308 INFO [main] i.u.d.s.m.GOV3Function - Completed.
+2024-02-13 16:21:44,437 309 INFO [main] i.u.d.s.m.GOV3Function - Actual bit cost per element: 72.0
+2024-02-13 16:21:44,437 309 INFO [main] i.u.d.s.m.LcpMonotoneMinimalPerfectHashFunction - Generating the map from LCPs to buckets...
+2024-02-13 16:21:44,504 376 INFO [main] i.u.d.s.m.GOV3Function - Adding elements...
+2024-02-13 16:21:44,504 376 INFO [main] i.u.d.s.m.GOV3Function - Completed.
+2024-02-13 16:21:44,504 376 INFO [main] i.u.d.s.m.GOV3Function - Elapsed: 1ms [1 keys, ∞ keys/s, 0.00 ns/key]; used/avail/free/total/max mem: 37.89M/30.01G/532.53M/570.43M/30.05G
+2024-02-13 16:21:44,504 376 INFO [main] i.u.d.s.m.GOV3Function - Analysing buckets...
+2024-02-13 16:21:44,507 379 INFO [main] i.u.d.s.m.GOV3Function - Unsolvable systems: 0/1 (0.00%)
+2024-02-13 16:21:44,507 379 INFO [main] i.u.d.s.m.GOV3Function - Completed.
+2024-02-13 16:21:44,508 380 INFO [main] i.u.d.s.m.GOV3Function - Elapsed: 4ms [1 buckets, 333.33 buckets/s, 3.00 ms/bucket]; used/avail/free/total/max mem: 39.29M/30.01G/531.13M/570.43M/30.05G
+2024-02-13 16:21:44,508 380 INFO [main] i.u.d.s.m.GOV3Function - Completed.
+2024-02-13 16:21:44,508 380 INFO [main] i.u.d.s.m.GOV3Function - Actual bit cost per element: 128.0
+2024-02-13 16:21:44,513 385 INFO [main] i.u.d.s.m.LcpMonotoneMinimalPerfectHashFunction - Actual bit cost per element: 136.0
+2024-02-13 16:21:44,536 408 INFO [main] i.u.d.s.m.LcpMonotoneMinimalPerfectHashFunction - Completed.
+Compression step MPH_LABELS finished at 2024-02-13 16:21:44.546598 (in 0:00:00.557134)

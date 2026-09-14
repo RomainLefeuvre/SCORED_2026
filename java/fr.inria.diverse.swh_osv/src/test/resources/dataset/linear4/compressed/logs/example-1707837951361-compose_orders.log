@@ -1,0 +1,4 @@
+Starting compression step COMPOSE_ORDERS at 2024-02-13 16:25:51.361757
+Running: java org.softwareheritage.graph.compress.ComposePermutations linear4/compressed/example-bfs.order linear4/compressed/example-llp.order linear4/compressed/example.order
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=linear4/compressed/tmp/logback.xml -Djava.io.tmpdir=linear4/compressed/tmp
+Compression step COMPOSE_ORDERS finished at 2024-02-13 16:25:51.513836 (in 0:00:00.152079)

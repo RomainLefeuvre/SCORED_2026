@@ -1,0 +1,22 @@
+Starting compression step SIMPLIFY at 2024-02-13 16:22:11.539876
+Running: java it.unimi.dsi.big.webgraph.Transform simplify merge/compressed/example-bfs merge/compressed/example-bfs-transposed merge/compressed/example-bfs-simplified
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=merge/compressed/tmp/logback.xml -Djava.io.tmpdir=merge/compressed/tmp
+2024-02-13 16:22:11,840 171 INFO [main] i.u.d.b.w.Transform - Loading graph...
+2024-02-13 16:22:11,841 172 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-13 16:22:11,844 175 INFO [main] i.u.d.b.w.Transform - Elapsed: 1ms [11 bytes, ∞ bytes/s, 0.00 ns/byte]
+2024-02-13 16:22:11,845 176 INFO [main] i.u.d.b.w.Transform - Loading offsets...
+2024-02-13 16:22:11,855 186 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-13 16:22:11,856 187 INFO [main] i.u.d.b.w.Transform - Elapsed: 12ms [11 deltas, 1,000.00 deltas/s, 1.00 ms/delta]
+2024-02-13 16:22:11,856 187 INFO [main] i.u.d.b.w.Transform - Pointer bits per node: 25.45
+2024-02-13 16:22:11,857 188 INFO [main] i.u.d.b.w.Transform - Loading graph...
+2024-02-13 16:22:11,857 188 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-13 16:22:11,858 189 INFO [main] i.u.d.b.w.Transform - Elapsed: 1ms [10 bytes, ∞ bytes/s, 0.00 ns/byte]
+2024-02-13 16:22:11,858 189 INFO [main] i.u.d.b.w.Transform - Loading offsets...
+2024-02-13 16:22:11,858 189 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-13 16:22:11,858 189 INFO [main] i.u.d.b.w.Transform - Elapsed: 1ms [11 deltas, ∞ deltas/s, 0.00 ns/delta]
+2024-02-13 16:22:11,858 189 INFO [main] i.u.d.b.w.Transform - Pointer bits per node: 26.27
+2024-02-13 16:22:11,864 195 INFO [main] i.u.d.b.w.BVGraph - Compressing using 1 threads
+2024-02-13 16:22:11,887 218 INFO [ProcessingThread-0] i.u.d.b.w.Transform - Storing...
+2024-02-13 16:22:11,892 223 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-13 16:22:11,893 224 INFO [main] i.u.d.b.w.Transform - Elapsed: 6ms [10 nodes, 2,000.00 nodes/s, 500.00 µs/node]
+Compression step SIMPLIFY finished at 2024-02-13 16:22:11.938587 (in 0:00:00.398711)

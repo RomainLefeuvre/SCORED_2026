@@ -1,0 +1,125 @@
+Starting compression step LLP at 2024-02-13 16:25:50.099797
+Running: java it.unimi.dsi.law.big.graph.LayeredLabelPropagation -g -0,-1,-2,-3,-4 linear4/compressed/example-bfs-simplified linear4/compressed/example-llp.order
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=linear4/compressed/tmp/logback.xml -Djava.io.tmpdir=linear4/compressed/tmp
+2024-02-13 16:25:50,439 209 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Running 12 threads
+2024-02-13 16:25:50,440 210 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting iterations with gamma=0.0625 (1/5) ...
+2024-02-13 16:25:50,440 210 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 0...
+2024-02-13 16:25:50,460 230 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,461 231 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 21ms [10 nodes, 500.00 nodes/s, 2.00 ms/node]
+2024-02-13 16:25:50,461 231 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 1 updates, 21ms, 47.62 updates/s, 21.00 ms/update
+2024-02-13 16:25:50,462 232 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 1.0
+2024-02-13 16:25:50,462 232 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 7
+2024-02-13 16:25:50,462 232 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 1...
+2024-02-13 16:25:50,463 233 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,463 233 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,463 233 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 2 updates, 23ms, 86.96 updates/s, 11.50 ms/update
+2024-02-13 16:25:50,463 233 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 0.0
+2024-02-13 16:25:50,463 233 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 0
+2024-02-13 16:25:50,463 233 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,463 233 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 24ms [2 updates, 86.96 updates/s, 11.50 ms/update]
+2024-02-13 16:25:50,467 237 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed iteration with gamma 0.0625 (1/5) , gap cost: 23.0
+2024-02-13 16:25:50,468 238 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 1 gammas, 30ms, 34.48 gammas/s, 29.00 ms/gamma; 20% done, 58ms to end
+2024-02-13 16:25:50,468 238 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Running 12 threads
+2024-02-13 16:25:50,468 238 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting iterations with gamma=0.125 (2/5) ...
+2024-02-13 16:25:50,468 238 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 0...
+2024-02-13 16:25:50,469 239 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,469 239 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,470 240 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 1 updates, 1ms, 1,000.00 updates/s, 1.00 ms/update
+2024-02-13 16:25:50,470 240 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 1.0
+2024-02-13 16:25:50,470 240 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 6
+2024-02-13 16:25:50,470 240 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 1...
+2024-02-13 16:25:50,470 240 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,471 241 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,471 241 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 2 updates, 3ms, 666.67 updates/s, 1.50 ms/update
+2024-02-13 16:25:50,471 241 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 0.26415094339622647
+2024-02-13 16:25:50,471 241 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 2
+2024-02-13 16:25:50,471 241 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 2...
+2024-02-13 16:25:50,472 242 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,473 243 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,473 243 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 3 updates, 5ms, 600.00 updates/s, 1.67 ms/update
+2024-02-13 16:25:50,473 243 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 0.0
+2024-02-13 16:25:50,473 243 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 0
+2024-02-13 16:25:50,473 243 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,473 243 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 6ms [3 updates, 600.00 updates/s, 1.67 ms/update]
+2024-02-13 16:25:50,476 246 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed iteration with gamma 0.125 (2/5) , gap cost: 27.0
+2024-02-13 16:25:50,477 247 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 2 gammas, 38ms, 52.63 gammas/s, 19.00 ms/gamma; 40% done, 38ms to end
+2024-02-13 16:25:50,477 247 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Running 12 threads
+2024-02-13 16:25:50,477 247 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting iterations with gamma=0.25 (3/5) ...
+2024-02-13 16:25:50,477 247 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 0...
+2024-02-13 16:25:50,479 249 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,479 249 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 3ms [10 nodes, 5,000.00 nodes/s, 200.00 µs/node]
+2024-02-13 16:25:50,480 250 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 1 updates, 2ms, 500.00 updates/s, 2.00 ms/update
+2024-02-13 16:25:50,480 250 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 1.0
+2024-02-13 16:25:50,480 250 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 6
+2024-02-13 16:25:50,480 250 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 1...
+2024-02-13 16:25:50,481 251 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,482 252 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,482 252 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 2 updates, 5ms, 400.00 updates/s, 2.50 ms/update
+2024-02-13 16:25:50,482 252 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 0.0
+2024-02-13 16:25:50,482 252 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 0
+2024-02-13 16:25:50,482 252 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,482 252 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 6ms [2 updates, 400.00 updates/s, 2.50 ms/update]
+2024-02-13 16:25:50,484 254 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed iteration with gamma 0.25 (3/5) , gap cost: 27.0
+2024-02-13 16:25:50,484 254 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 3 gammas, 46ms, 65.22 gammas/s, 15.33 ms/gamma; 60% done, 23ms to end
+2024-02-13 16:25:50,484 254 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Running 12 threads
+2024-02-13 16:25:50,484 254 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting iterations with gamma=0.5 (4/5) ...
+2024-02-13 16:25:50,484 254 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 0...
+2024-02-13 16:25:50,485 255 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,486 256 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,486 256 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 1 updates, 2ms, 500.00 updates/s, 2.00 ms/update
+2024-02-13 16:25:50,486 256 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 1.0
+2024-02-13 16:25:50,486 256 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 6
+2024-02-13 16:25:50,486 256 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 1...
+2024-02-13 16:25:50,487 257 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,488 258 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,488 258 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 2 updates, 4ms, 500.00 updates/s, 2.00 ms/update
+2024-02-13 16:25:50,488 258 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 0.09090909090909094
+2024-02-13 16:25:50,488 258 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 2
+2024-02-13 16:25:50,488 258 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 2...
+2024-02-13 16:25:50,489 259 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,490 260 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,490 260 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 3 updates, 6ms, 500.00 updates/s, 2.00 ms/update
+2024-02-13 16:25:50,490 260 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 0.0
+2024-02-13 16:25:50,490 260 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 0
+2024-02-13 16:25:50,490 260 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,490 260 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 7ms [3 updates, 500.00 updates/s, 2.00 ms/update]
+2024-02-13 16:25:50,492 262 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed iteration with gamma 0.5 (4/5) , gap cost: 27.0
+2024-02-13 16:25:50,492 262 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 4 gammas, 54ms, 74.07 gammas/s, 13.50 ms/gamma; 80% done, 11ms to end
+2024-02-13 16:25:50,493 263 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Running 12 threads
+2024-02-13 16:25:50,493 263 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting iterations with gamma=1 (5/5) ...
+2024-02-13 16:25:50,493 263 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 0...
+2024-02-13 16:25:50,494 264 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,494 264 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,495 265 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 1 updates, 2ms, 500.00 updates/s, 2.00 ms/update
+2024-02-13 16:25:50,495 265 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 1.0
+2024-02-13 16:25:50,495 265 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 7
+2024-02-13 16:25:50,495 265 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting update 1...
+2024-02-13 16:25:50,496 266 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,496 266 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 2ms [10 nodes, 10,000.00 nodes/s, 100.00 µs/node]
+2024-02-13 16:25:50,496 266 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 2 updates, 3ms, 666.67 updates/s, 1.50 ms/update
+2024-02-13 16:25:50,496 266 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Gain: 0.0
+2024-02-13 16:25:50,497 267 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Modified: 2
+2024-02-13 16:25:50,497 267 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,497 267 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 5ms [2 updates, 500.00 updates/s, 2.00 ms/update]
+2024-02-13 16:25:50,498 268 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed iteration with gamma 1 (5/5) , gap cost: 22.0
+2024-02-13 16:25:50,499 269 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - 5 gammas, 61ms, 81.97 gammas/s, 12.20 ms/gamma; 100% done, 0ms to end
+2024-02-13 16:25:50,499 269 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Completed.
+2024-02-13 16:25:50,499 269 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Elapsed: 62ms [5 gammas, 81.97 gammas/s, 12.20 ms/gamma]
+2024-02-13 16:25:50,501 271 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Best gamma: 1	with GapCost: 22.0
+2024-02-13 16:25:50,501 271 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Worst gamma: 0.125	with GapCost: 27.0
+2024-02-13 16:25:50,502 272 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting step 0...
+2024-02-13 16:25:50,504 274 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Number of labels: 4
+2024-02-13 16:25:50,504 274 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Finished step 0
+2024-02-13 16:25:50,504 274 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting step 1...
+2024-02-13 16:25:50,504 274 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Number of labels: 5
+2024-02-13 16:25:50,504 274 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Finished step 1
+2024-02-13 16:25:50,504 274 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting step 2...
+2024-02-13 16:25:50,504 274 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Number of labels: 5
+2024-02-13 16:25:50,505 275 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Finished step 2
+2024-02-13 16:25:50,505 275 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting step 3...
+2024-02-13 16:25:50,505 275 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Number of labels: 5
+2024-02-13 16:25:50,505 275 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Finished step 3
+2024-02-13 16:25:50,505 275 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Starting step 4...
+2024-02-13 16:25:50,505 275 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Number of labels: 5
+2024-02-13 16:25:50,505 275 INFO [main] i.u.d.l.b.g.LayeredLabelPropagation - Finished step 4
+Compression step LLP finished at 2024-02-13 16:25:50.523252 (in 0:00:00.423455)

@@ -1,0 +1,4 @@
+Starting compression step COMPOSE_ORDERS at 2024-02-13 17:26:13.677634
+Running: java org.softwareheritage.graph.compress.ComposePermutations checkout-early/compressed/example-bfs.order checkout-early/compressed/example-llp.order checkout-early/compressed/example.order
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout-early/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout-early/compressed/tmp
+Compression step COMPOSE_ORDERS finished at 2024-02-13 17:26:13.812213 (in 0:00:00.134579)

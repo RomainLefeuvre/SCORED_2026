@@ -1,0 +1,10 @@
+[
+    {
+        "repo_url": "https://gitlab.gnome.org/vulnerable",
+        "events": {
+            "0000000000000000000000000000000000000301": "INTRODUCED",
+            "0000000000000000000000000000000000000303": "FIXED"
+        },
+        "vulnerability_id": "CVE-2016-2105"
+    }
+]

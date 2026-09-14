@@ -1,0 +1,19 @@
+Starting compression step TRANSPOSE_BFS at 2024-02-19 16:09:56.229146
+Running: java it.unimi.dsi.big.webgraph.Transform transposeOffline checkout/compressed/example-bfs checkout/compressed/example-bfs-transposed 33378959 checkout/compressed/tmp
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041063424 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout/compressed/tmp
+2024-02-19 16:09:56,501 156 INFO [main] i.u.d.b.w.Transform - Loading graph...
+2024-02-19 16:09:56,503 158 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:56,505 160 INFO [main] i.u.d.b.w.Transform - Elapsed: 2ms [14 bytes, 14,000.00 bytes/s, 71.43 µs/byte]
+2024-02-19 16:09:56,505 160 INFO [main] i.u.d.b.w.Transform - Loading offsets...
+2024-02-19 16:09:56,517 172 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:56,518 173 INFO [main] i.u.d.b.w.Transform - Elapsed: 14ms [13 deltas, 1,000.00 deltas/s, 1.00 ms/delta]
+2024-02-19 16:09:56,518 173 INFO [main] i.u.d.b.w.Transform - Pointer bits per node: 21.92
+2024-02-19 16:09:56,639 294 INFO [main] i.u.d.b.w.Transform - Creating sorted batches...
+2024-02-19 16:09:56,646 301 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:56,646 301 INFO [main] i.u.d.b.w.Transform - Elapsed: 8ms [12 nodes, 1,714.29 nodes/s, 583.33 µs/node]
+2024-02-19 16:09:56,647 302 INFO [main] i.u.d.b.w.Transform - Created 1 batches using 8.62 bits/arc.
+2024-02-19 16:09:56,650 305 INFO [main] i.u.d.b.w.BVGraph - Compressing using 1 threads
+2024-02-19 16:09:56,662 317 INFO [ProcessingThread-0] i.u.d.b.w.Transform - Storing...
+2024-02-19 16:09:56,666 321 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:56,666 321 INFO [main] i.u.d.b.w.Transform - Elapsed: 4ms [12 nodes, 4,000.00 nodes/s, 250.00 µs/node]
+Compression step TRANSPOSE_BFS finished at 2024-02-19 16:09:56.698454 (in 0:00:00.469308)

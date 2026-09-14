@@ -1,0 +1,15 @@
+Starting compression step MPH at 2024-02-13 16:38:58.961046
+Running: java it.unimi.dsi.sux4j.mph.GOVMinimalPerfectHashFunction --byte-array --temp-dir merge4/compressed/tmp --decompressor com.github.luben.zstd.ZstdInputStream merge4/compressed/example.mph merge4/compressed/example.nodes.csv.zst
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=merge4/compressed/tmp/logback.xml -Djava.io.tmpdir=merge4/compressed/tmp
+2024-02-13 16:38:59,403 282 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Adding elements...
+2024-02-13 16:38:59,408 287 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 16:38:59,408 287 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Elapsed: 4ms [11 keys, 3,666.67 keys/s, 272.73 µs/key]; used/avail/free/total/max mem: 45.26M/30.00G/525.17M/570.43M/30.05G
+2024-02-13 16:38:59,412 291 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Analysing buckets...
+2024-02-13 16:38:59,453 332 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Unsolvable systems: 2/3 (66.67%)
+2024-02-13 16:38:59,453 332 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Unorientable systems: 0/3 (0.00%)
+2024-02-13 16:38:59,453 332 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 16:38:59,454 333 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Elapsed: 42ms [1 buckets, 24.39 buckets/s, 41.00 ms/bucket]; used/avail/free/total/max mem: 49.67M/30.00G/520.75M/570.43M/30.05G
+2024-02-13 16:38:59,454 333 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 16:38:59,456 335 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Actual bit cost per key: 14.0
+2024-02-13 16:38:59,494 373 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Saved.
+Compression step MPH finished at 2024-02-13 16:38:59.505751 (in 0:00:00.544705)

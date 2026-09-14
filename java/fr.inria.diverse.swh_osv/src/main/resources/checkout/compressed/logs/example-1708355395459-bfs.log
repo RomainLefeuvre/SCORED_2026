@@ -1,0 +1,7 @@
+Starting compression step BFS at 2024-02-19 16:09:55.459210
+Running: java it.unimi.dsi.law.big.graph.BFS checkout/compressed/example-base checkout/compressed/example-bfs.order
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041063424 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout/compressed/tmp
+2024-02-19 16:09:55,720 160 INFO [main] i.u.d.l.b.g.BFS - Starting breadth-first visit...
+2024-02-19 16:09:55,725 165 INFO [main] i.u.d.l.b.g.BFS - Completed.
+2024-02-19 16:09:55,727 167 INFO [main] i.u.d.l.b.g.BFS - Elapsed: 5ms [12 nodes, 3,000.00 nodes/s, 333.33 µs/node]
+Compression step BFS finished at 2024-02-19 16:09:55.733377 (in 0:00:00.274167)

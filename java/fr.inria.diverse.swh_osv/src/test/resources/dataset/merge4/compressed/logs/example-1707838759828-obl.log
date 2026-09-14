@@ -1,0 +1,4 @@
+Starting compression step OBL at 2024-02-13 16:39:19.828247
+Running: java it.unimi.dsi.big.webgraph.BVGraph --list merge4/compressed/example
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=merge4/compressed/tmp/logback.xml -Djava.io.tmpdir=merge4/compressed/tmp
+Compression step OBL finished at 2024-02-13 16:39:20.078305 (in 0:00:00.250058)

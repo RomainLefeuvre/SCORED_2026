@@ -1,0 +1,23 @@
+Starting compression step PERMUTE_LLP at 2024-02-19 16:09:57.433306
+Running: java it.unimi.dsi.big.webgraph.Transform mapOffline checkout/compressed/example-bfs checkout/compressed/example checkout/compressed/example-llp.order 33378959 checkout/compressed/tmp
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041063424 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout/compressed/tmp
+2024-02-19 16:09:57,708 145 INFO [main] i.u.d.b.w.Transform - Loading graph...
+2024-02-19 16:09:57,709 146 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:57,712 149 INFO [main] i.u.d.b.w.Transform - Elapsed: 1ms [14 bytes, ∞ bytes/s, 0.00 ns/byte]
+2024-02-19 16:09:57,712 149 INFO [main] i.u.d.b.w.Transform - Loading offsets...
+2024-02-19 16:09:57,723 160 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:57,724 161 INFO [main] i.u.d.b.w.Transform - Elapsed: 12ms [13 deltas, 1,181.82 deltas/s, 846.15 µs/delta]
+2024-02-19 16:09:57,724 161 INFO [main] i.u.d.b.w.Transform - Pointer bits per node: 21.92
+2024-02-19 16:09:57,724 161 INFO [main] i.u.d.b.w.Transform - Reading map...
+2024-02-19 16:09:57,728 165 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:57,728 165 INFO [main] i.u.d.b.w.Transform - Elapsed: 5ms [12 deltas, 3,000.00 deltas/s, 333.33 µs/delta]
+2024-02-19 16:09:57,838 275 INFO [main] i.u.d.b.w.Transform - Creating sorted batches...
+2024-02-19 16:09:57,843 280 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:57,843 280 INFO [main] i.u.d.b.w.Transform - Elapsed: 6ms [12 nodes, 2,400.00 nodes/s, 416.67 µs/node]
+2024-02-19 16:09:57,843 280 INFO [main] i.u.d.b.w.Transform - Created 1 batches using 8.62 bits/arc.
+2024-02-19 16:09:57,844 281 INFO [main] i.u.d.b.w.Transform - Transform computation completed.
+2024-02-19 16:09:57,846 283 INFO [main] i.u.d.b.w.BVGraph - Compressing using 1 threads
+2024-02-19 16:09:57,856 293 INFO [ProcessingThread-0] i.u.d.b.w.Transform - Storing...
+2024-02-19 16:09:57,857 294 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:57,857 294 INFO [main] i.u.d.b.w.Transform - Elapsed: 2ms [12 nodes, 12,000.00 nodes/s, 83.33 µs/node]
+Compression step PERMUTE_LLP finished at 2024-02-19 16:09:57.897589 (in 0:00:00.464283)

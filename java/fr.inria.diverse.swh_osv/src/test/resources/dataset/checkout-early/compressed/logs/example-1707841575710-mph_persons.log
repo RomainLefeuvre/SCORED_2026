@@ -1,0 +1,15 @@
+Starting compression step MPH_PERSONS at 2024-02-13 17:26:15.711074
+Running: java it.unimi.dsi.sux4j.mph.GOVMinimalPerfectHashFunction --byte-array --decompressor com.github.luben.zstd.ZstdInputStream --temp-dir checkout-early/compressed/tmp checkout-early/compressed/example.persons.mph checkout-early/compressed/example.persons.csv.zst
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout-early/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout-early/compressed/tmp
+2024-02-13 17:26:16,068 262 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Adding elements...
+2024-02-13 17:26:16,073 267 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 17:26:16,074 268 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Elapsed: 5ms [1 keys, 250.00 keys/s, 4.00 ms/key]; used/avail/free/total/max mem: 45.25M/30.00G/525.17M/570.43M/30.05G
+2024-02-13 17:26:16,076 270 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Analysing buckets...
+2024-02-13 17:26:16,101 295 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Unsolvable systems: 0/1 (0.00%)
+2024-02-13 17:26:16,101 295 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Unorientable systems: 0/1 (0.00%)
+2024-02-13 17:26:16,101 295 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 17:26:16,102 296 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Elapsed: 27ms [1 buckets, 38.46 buckets/s, 26.00 ms/bucket]; used/avail/free/total/max mem: 49.42M/30.00G/520.67M/570.43M/30.05G
+2024-02-13 17:26:16,102 296 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 17:26:16,103 297 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Actual bit cost per key: 132.0
+2024-02-13 17:26:16,129 323 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Saved.
+Compression step MPH_PERSONS finished at 2024-02-13 17:26:16.134612 (in 0:00:00.423538)

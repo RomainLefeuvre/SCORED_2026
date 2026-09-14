@@ -1,0 +1,6 @@
+out/**
+out_unzip/**
+__pycache__/
+outputs/**
+log/**
+log_*

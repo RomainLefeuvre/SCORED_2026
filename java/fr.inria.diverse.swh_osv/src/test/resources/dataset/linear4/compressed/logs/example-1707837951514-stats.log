@@ -1,0 +1,7 @@
+Starting compression step STATS at 2024-02-13 16:25:51.514252
+Running: java it.unimi.dsi.big.webgraph.Stats linear4/compressed/example
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=linear4/compressed/tmp/logback.xml -Djava.io.tmpdir=linear4/compressed/tmp
+2024-02-13 16:25:51,777 143 INFO [main] ROOT - Scanning...
+2024-02-13 16:25:51,781 147 INFO [main] ROOT - Completed.
+2024-02-13 16:25:51,783 149 INFO [main] ROOT - Elapsed: 3ms [10 nodes, 5,000.00 nodes/s, 200.00 µs/node]
+Compression step STATS finished at 2024-02-13 16:25:51.794155 (in 0:00:00.279903)

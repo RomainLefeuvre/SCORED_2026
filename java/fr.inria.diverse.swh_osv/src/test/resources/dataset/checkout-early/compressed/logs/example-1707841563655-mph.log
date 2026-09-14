@@ -1,0 +1,15 @@
+Starting compression step MPH at 2024-02-13 17:26:03.655404
+Running: java it.unimi.dsi.sux4j.mph.GOVMinimalPerfectHashFunction --byte-array --temp-dir checkout-early/compressed/tmp --decompressor com.github.luben.zstd.ZstdInputStream checkout-early/compressed/example.mph checkout-early/compressed/example.nodes.csv.zst
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout-early/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout-early/compressed/tmp
+2024-02-13 17:26:04,145 355 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Adding elements...
+2024-02-13 17:26:04,151 361 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 17:26:04,152 362 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Elapsed: 6ms [10 keys, 2,000.00 keys/s, 500.00 µs/key]; used/avail/free/total/max mem: 45.26M/30.00G/525.17M/570.43M/30.05G
+2024-02-13 17:26:04,163 373 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Analysing buckets...
+2024-02-13 17:26:04,204 414 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Unsolvable systems: 1/2 (50.00%)
+2024-02-13 17:26:04,205 415 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Unorientable systems: 1/3 (33.33%)
+2024-02-13 17:26:04,205 415 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 17:26:04,207 417 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Elapsed: 43ms [1 buckets, 23.81 buckets/s, 42.00 ms/bucket]; used/avail/free/total/max mem: 49.68M/30.00G/520.75M/570.43M/30.05G
+2024-02-13 17:26:04,208 418 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 17:26:04,210 420 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Actual bit cost per key: 15.0
+2024-02-13 17:26:04,245 455 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Saved.
+Compression step MPH finished at 2024-02-13 17:26:04.253179 (in 0:00:00.597775)

@@ -1,0 +1,19 @@
+Starting compression step TRANSPOSE at 2024-02-13 16:39:20.504461
+Running: java it.unimi.dsi.big.webgraph.Transform transposeOffline merge4/compressed/example merge4/compressed/example-transposed 33378967 merge4/compressed/tmp
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=merge4/compressed/tmp/logback.xml -Djava.io.tmpdir=merge4/compressed/tmp
+2024-02-13 16:39:20,788 173 INFO [main] i.u.d.b.w.Transform - Loading graph...
+2024-02-13 16:39:20,789 174 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-13 16:39:20,791 176 INFO [main] i.u.d.b.w.Transform - Elapsed: 1ms [13 bytes, ∞ bytes/s, 0.00 ns/byte]
+2024-02-13 16:39:20,792 177 INFO [main] i.u.d.b.w.Transform - Loading offsets...
+2024-02-13 16:39:20,815 200 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-13 16:39:20,815 200 INFO [main] i.u.d.b.w.Transform - Elapsed: 24ms [12 deltas, 521.74 deltas/s, 1.92 ms/delta]
+2024-02-13 16:39:20,815 200 INFO [main] i.u.d.b.w.Transform - Pointer bits per node: 23.58
+2024-02-13 16:39:20,945 330 INFO [main] i.u.d.b.w.Transform - Creating sorted batches...
+2024-02-13 16:39:20,951 336 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-13 16:39:20,951 336 INFO [main] i.u.d.b.w.Transform - Elapsed: 7ms [11 nodes, 1,833.33 nodes/s, 545.45 µs/node]
+2024-02-13 16:39:20,952 337 INFO [main] i.u.d.b.w.Transform - Created 1 batches using 7.38 bits/arc.
+2024-02-13 16:39:20,955 340 INFO [main] i.u.d.b.w.BVGraph - Compressing using 1 threads
+2024-02-13 16:39:20,965 350 INFO [ProcessingThread-0] i.u.d.b.w.Transform - Storing...
+2024-02-13 16:39:20,968 353 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-13 16:39:20,968 353 INFO [main] i.u.d.b.w.Transform - Elapsed: 4ms [11 nodes, 3,666.67 nodes/s, 272.73 µs/node]
+Compression step TRANSPOSE finished at 2024-02-13 16:39:21.009351 (in 0:00:00.504890)

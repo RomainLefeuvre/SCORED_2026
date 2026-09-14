@@ -1,0 +1,18 @@
+Starting compression step MAPS at 2024-02-13 16:39:21.264681
+Running: java org.softwareheritage.graph.compress.NodeMapBuilder merge4/compressed/example merge4/compressed/tmp < merge4/compressed/example.nodes.csv.zst
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=merge4/compressed/tmp/logback.xml -Djava.io.tmpdir=merge4/compressed/tmp
+2024-02-13 16:39:21,462 103 INFO [main] o.s.g.c.NodeMapBuilder - starting maps generation...
+2024-02-13 16:39:21,513 154 INFO [main] o.s.g.c.NodeMapBuilder - loading BFS order file...
+2024-02-13 16:39:21,515 156 INFO [main] o.s.g.c.NodeMapBuilder - BFS order file loaded
+2024-02-13 16:39:21,547 188 INFO [Thread-0] o.s.g.c.NodeMapBuilder - node2swhid: waiting for sort output...
+2024-02-13 16:39:21,547 188 INFO [main] o.s.g.c.NodeMapBuilder - Hashing SWHIDs to fill sort input
+2024-02-13 16:39:21,552 193 INFO [main] o.s.g.c.NodeMapBuilder - Completed.
+2024-02-13 16:39:21,555 196 INFO [main] o.s.g.c.NodeMapBuilder - Elapsed: 6ms [11 nodes, 2,200.00 nodes/s, 454.55 µs/node]
+2024-02-13 16:39:21,555 196 INFO [main] o.s.g.c.NodeMapBuilder - storing type map
+2024-02-13 16:39:21,556 197 INFO [Thread-0] o.s.g.c.NodeMapBuilder - filling node2swhid map
+2024-02-13 16:39:21,557 198 INFO [main] o.s.g.c.NodeMapBuilder - type map stored
+2024-02-13 16:39:21,557 198 INFO [main] o.s.g.c.NodeMapBuilder - waiting for node2swhid map...
+2024-02-13 16:39:21,558 199 INFO [Thread-0] o.s.g.c.NodeMapBuilder - Completed.
+2024-02-13 16:39:21,558 199 INFO [Thread-0] o.s.g.c.NodeMapBuilder - Elapsed: 3ms [11 nodes, 5,500.00 nodes/s, 181.82 µs/node]
+2024-02-13 16:39:21,558 199 INFO [main] o.s.g.c.NodeMapBuilder - maps generation completed
+Compression step MAPS finished at 2024-02-13 16:39:21.574466 (in 0:00:00.309785)

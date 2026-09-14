@@ -1,0 +1,23 @@
+Starting compression step PERMUTE_BFS at 2024-02-19 16:09:55.733743
+Running: java it.unimi.dsi.big.webgraph.Transform mapOffline checkout/compressed/example-base checkout/compressed/example-bfs checkout/compressed/example-bfs.order 33378959 checkout/compressed/tmp
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041063424 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout/compressed/tmp
+2024-02-19 16:09:56,011 169 INFO [main] i.u.d.b.w.Transform - Loading graph...
+2024-02-19 16:09:56,013 171 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:56,015 173 INFO [main] i.u.d.b.w.Transform - Elapsed: 2ms [14 bytes, 14,000.00 bytes/s, 71.43 µs/byte]
+2024-02-19 16:09:56,016 174 INFO [main] i.u.d.b.w.Transform - Loading offsets...
+2024-02-19 16:09:56,027 185 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:56,027 185 INFO [main] i.u.d.b.w.Transform - Elapsed: 12ms [13 deltas, 1,181.82 deltas/s, 846.15 µs/delta]
+2024-02-19 16:09:56,027 185 INFO [main] i.u.d.b.w.Transform - Pointer bits per node: 21.92
+2024-02-19 16:09:56,028 186 INFO [main] i.u.d.b.w.Transform - Reading map...
+2024-02-19 16:09:56,032 190 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:56,033 191 INFO [main] i.u.d.b.w.Transform - Elapsed: 5ms [12 deltas, 3,000.00 deltas/s, 333.33 µs/delta]
+2024-02-19 16:09:56,169 327 INFO [main] i.u.d.b.w.Transform - Creating sorted batches...
+2024-02-19 16:09:56,176 334 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:56,176 334 INFO [main] i.u.d.b.w.Transform - Elapsed: 8ms [12 nodes, 1,714.29 nodes/s, 583.33 µs/node]
+2024-02-19 16:09:56,177 335 INFO [main] i.u.d.b.w.Transform - Created 1 batches using 8.62 bits/arc.
+2024-02-19 16:09:56,177 335 INFO [main] i.u.d.b.w.Transform - Transform computation completed.
+2024-02-19 16:09:56,180 338 INFO [main] i.u.d.b.w.BVGraph - Compressing using 1 threads
+2024-02-19 16:09:56,191 349 INFO [ProcessingThread-0] i.u.d.b.w.Transform - Storing...
+2024-02-19 16:09:56,192 350 INFO [main] i.u.d.b.w.Transform - Completed.
+2024-02-19 16:09:56,192 350 INFO [main] i.u.d.b.w.Transform - Elapsed: 2ms [12 nodes, 12,000.00 nodes/s, 83.33 µs/node]
+Compression step PERMUTE_BFS finished at 2024-02-19 16:09:56.228674 (in 0:00:00.494931)

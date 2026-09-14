@@ -1,0 +1,4 @@
+Starting compression step EDGE_LABELS_TRANSPOSE_OBL at 2024-02-19 16:10:11.991564
+Running: java it.unimi.dsi.big.webgraph.labelling.BitStreamArcLabelledImmutableGraph --list checkout/compressed/example-transposed-labelled
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041063424 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout/compressed/tmp
+Compression step EDGE_LABELS_TRANSPOSE_OBL finished at 2024-02-19 16:10:12.291654 (in 0:00:00.300090)

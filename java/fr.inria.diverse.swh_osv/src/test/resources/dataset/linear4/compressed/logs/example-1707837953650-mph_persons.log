@@ -1,0 +1,15 @@
+Starting compression step MPH_PERSONS at 2024-02-13 16:25:53.651060
+Running: java it.unimi.dsi.sux4j.mph.GOVMinimalPerfectHashFunction --byte-array --decompressor com.github.luben.zstd.ZstdInputStream --temp-dir linear4/compressed/tmp linear4/compressed/example.persons.mph linear4/compressed/example.persons.csv.zst
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=linear4/compressed/tmp/logback.xml -Djava.io.tmpdir=linear4/compressed/tmp
+2024-02-13 16:25:54,018 251 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Adding elements...
+2024-02-13 16:25:54,023 256 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 16:25:54,024 257 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Elapsed: 5ms [1 keys, 250.00 keys/s, 4.00 ms/key]; used/avail/free/total/max mem: 45.25M/30.00G/525.17M/570.43M/30.05G
+2024-02-13 16:25:54,027 260 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Analysing buckets...
+2024-02-13 16:25:54,059 292 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Unsolvable systems: 0/1 (0.00%)
+2024-02-13 16:25:54,059 292 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Unorientable systems: 0/1 (0.00%)
+2024-02-13 16:25:54,060 293 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 16:25:54,060 293 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Elapsed: 34ms [1 buckets, 30.30 buckets/s, 33.00 ms/bucket]; used/avail/free/total/max mem: 49.76M/30.00G/520.67M/570.43M/30.05G
+2024-02-13 16:25:54,060 293 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Completed.
+2024-02-13 16:25:54,061 294 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Actual bit cost per key: 132.0
+2024-02-13 16:25:54,091 324 INFO [main] i.u.d.s.m.GOVMinimalPerfectHashFunction - Saved.
+Compression step MPH_PERSONS finished at 2024-02-13 16:25:54.108909 (in 0:00:00.457849)

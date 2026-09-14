@@ -1,0 +1,4 @@
+Starting compression step EDGE_LABELS_OBL at 2024-02-13 16:21:49.469093
+Running: java it.unimi.dsi.big.webgraph.labelling.BitStreamArcLabelledImmutableGraph --list linear/compressed/example-labelled
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=linear/compressed/tmp/logback.xml -Djava.io.tmpdir=linear/compressed/tmp
+Compression step EDGE_LABELS_OBL finished at 2024-02-13 16:21:49.778139 (in 0:00:00.309046)

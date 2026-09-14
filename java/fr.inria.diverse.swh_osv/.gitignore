@@ -1,0 +1,17 @@
+target/
+/target/
+*/target/**
+.vscode/*
+/.vscode/*
+.vscode/launch.json
+src/test/resources/dataset/2021-03-23-popular-3k-python/
+log/
+out/
+target/
+/target/
+*/target/**
+.vscode/*
+.vscode/launch.json
+backup/
+luigi/out/**
+**/__pycache__/

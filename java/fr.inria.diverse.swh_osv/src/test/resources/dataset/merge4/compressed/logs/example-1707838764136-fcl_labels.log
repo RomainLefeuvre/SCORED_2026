@@ -1,0 +1,6 @@
+Starting compression step FCL_LABELS at 2024-02-13 16:39:24.136770
+Running: java it.unimi.dsi.big.util.MappedFrontCodedStringBigList --decompressor com.github.luben.zstd.ZstdInputStream merge4/compressed/example.labels.fcl < merge4/compressed/example.labels.csv.zst
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=merge4/compressed/tmp/logback.xml -Djava.io.tmpdir=merge4/compressed/tmp
+2024-02-13 16:39:24,360 104 INFO [main] i.u.d.b.u.FrontCodedStringBigList - Reading strings...
+2024-02-13 16:39:24,412 156 INFO [main] i.u.d.b.u.FrontCodedStringBigList - Completed.
+Compression step FCL_LABELS finished at 2024-02-13 16:39:24.428277 (in 0:00:00.291507)

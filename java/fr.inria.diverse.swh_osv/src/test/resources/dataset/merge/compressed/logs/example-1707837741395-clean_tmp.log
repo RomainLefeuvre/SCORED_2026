@@ -1,0 +1,3 @@
+Starting compression step CLEAN_TMP at 2024-02-13 16:22:21.395681
+Running: rm -rf merge/compressed/example-base.graph merge/compressed/example-base.offsets merge/compressed/example-base.properties merge/compressed/example-bfs-simplified.graph merge/compressed/example-bfs-simplified.offsets merge/compressed/example-bfs-simplified.properties merge/compressed/example-bfs-transposed.graph merge/compressed/example-bfs-transposed.offsets merge/compressed/example-bfs-transposed.properties merge/compressed/example-bfs.graph merge/compressed/example-bfs.offsets merge/compressed/example-bfs.order merge/compressed/example-bfs.properties merge/compressed/example-llp.order merge/compressed/tmp
+Compression step CLEAN_TMP finished at 2024-02-13 16:22:21.397992 (in 0:00:00.002311)

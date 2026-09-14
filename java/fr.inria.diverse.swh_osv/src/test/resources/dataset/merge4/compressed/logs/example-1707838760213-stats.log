@@ -1,0 +1,7 @@
+Starting compression step STATS at 2024-02-13 16:39:20.213626
+Running: java it.unimi.dsi.big.webgraph.Stats merge4/compressed/example
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=merge4/compressed/tmp/logback.xml -Djava.io.tmpdir=merge4/compressed/tmp
+2024-02-13 16:39:20,474 148 INFO [main] ROOT - Scanning...
+2024-02-13 16:39:20,477 151 INFO [main] ROOT - Completed.
+2024-02-13 16:39:20,480 154 INFO [main] ROOT - Elapsed: 2ms [11 nodes, 11,000.00 nodes/s, 90.91 µs/node]
+Compression step STATS finished at 2024-02-13 16:39:20.504004 (in 0:00:00.290378)

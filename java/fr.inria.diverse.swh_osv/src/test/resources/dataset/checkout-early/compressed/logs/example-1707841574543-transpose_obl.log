@@ -1,0 +1,4 @@
+Starting compression step TRANSPOSE_OBL at 2024-02-13 17:26:14.544039
+Running: java it.unimi.dsi.big.webgraph.BVGraph --list checkout-early/compressed/example-transposed
+Picked up JAVA_TOOL_OPTIONS: -Xmx30041070796 -XX:PretenureSizeThreshold=512M -XX:MaxNewSize=4G -XX:+UseLargePages -XX:+UseTransparentHugePages -XX:+UseNUMA -XX:+UseTLAB -XX:+ResizeTLAB -Dlogback.configurationFile=checkout-early/compressed/tmp/logback.xml -Djava.io.tmpdir=checkout-early/compressed/tmp
+Compression step TRANSPOSE_OBL finished at 2024-02-13 17:26:14.802321 (in 0:00:00.258282)
