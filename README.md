@@ -111,20 +111,6 @@ docker compose up
 Then, run the JavaScript `/PostgresCreate.java`
 
 
-
-### Go
-
-The analysis on go repositories can be launched via the script `python/dependency_tool/go_analysis/go_analysis.py`, the amount can be set in the bottom of the file ` search_top_go_repos(NUMBER_OF_REPOSITORY,...`. Using a github token is advised, and can be set up within the script as well `GITHUB_TOKEN = `
-
-#### Submodule analysis
-
-The submodule tool can be run via the following command:
-`python ./submodule_tool.py ./example_vulnerable_repository/`
-
-It will output a list of potential vulnerabilities in the submodules of `example_vulnerable_repository`
-
-Note: this script needs the docker Postgres database to be launched.
-
 ## Data Folder - Overview
 
 ```
